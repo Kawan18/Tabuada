@@ -1,0 +1,106 @@
+@font-face {
+    font-family: fonte1;
+    src: url(./fontes/fonte1.otf);
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: #dad6d6;
+}
+header {
+    display: flex;
+    justify-content: space-around;
+    background: rgb(67, 114, 67);
+    padding: 10px;
+    border-bottom: #000 solid 5px;
+}
+#toggle-mode {
+    border-radius: 30px;
+    padding: 10px;
+    background: #000;
+    color: #fff;
+}
+h1 {
+    padding: 10px;
+    font-family: fonte1;
+    background: #000;
+    color: #fff;
+    border-radius: 10px;
+}
+main {
+    background: rgb(67, 114, 67);
+    text-align: center;
+    margin-top: 60px;
+    margin-left: 500px;
+    margin-right: 500px;
+    border-radius: 40px;
+    border: solid #000 5px;
+    height: 320px;
+}
+p {
+    padding: 10px;
+    font-family: fonte1;
+    font-size: 15px;
+}
+input {
+    margin-bottom: 10px;
+    text-indent: 7px;
+    border-radius: 10px;
+}
+#tabela-tabuada {
+    margin: auto;
+    background: #000;
+    color: #fff;
+    border-radius: 30px;
+    padding: 5px 25px;
+}
+footer {
+    background: rgb(67, 114, 67);
+    text-align: center;
+    font-size: 14px;
+    border-top: #000 solid 5px;
+    margin-top: 99.5px;
+    padding: 5px;
+}
+#btn {
+    border-radius: 10px;
+    padding: 0 5px;
+}
+a {
+    color: #000;
+    text-decoration: none;
+}
+.dark-mode {
+    background: rgb(45, 41, 41);
+    color: #fff;
+}
+.dark-mode header {
+    background: rgb(85, 83, 65);
+    border-bottom: #fff solid 5px;
+    color: #fff;
+}
+.dark-mode main {
+    background: rgb(72, 67, 64);
+    border: solid #fff  5px;
+}
+.dark-mode #tabela-tabuada {
+    background: #fff;
+    color: #000;
+}
+.dark-mode footer {
+    background: rgb(85, 83, 65);
+    border-top: #fff solid 5px;
+}
+.dark-mode h1 {
+    background: #fff;
+    color: #000;
+}
+.dark-mode a {
+    color: #fff;
+}
+.dark-mode #toggle-mode {
+    background: #fff;
+    color: #000;
+}
